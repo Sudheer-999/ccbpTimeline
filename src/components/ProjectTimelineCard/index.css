@@ -1,0 +1,48 @@
+.project-image {
+  width: 100%;
+}
+
+.project-con {
+  padding: 10px 0px;
+}
+
+.p-upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-inner-upper {
+  display: flex;
+  align-items: center;
+}
+
+.p-title {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .p-title {
+    font-size: 24px;
+  }
+}
+
+.p-desc {
+  font-size: 16px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.calender-icon {
+  margin-right: 7px;
+}
+
+.p-duration {
+  font-weight: 600;
+}
+
+.p-link {
+  text-decoration: none;
+  color: #0967d2;
+  font-weight: 500;
+  font-size: 18px;
+}
